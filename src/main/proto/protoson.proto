@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// Make protoc do sensible things when generating Java code.
+option java_multiple_files = true;
+option java_package = "protoson.messages";
+
+// A simple greeting message.
+message Greeting {
+    string greeting = 1;
+}
