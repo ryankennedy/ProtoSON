@@ -8,6 +8,14 @@ https://www.w3.org/Protocols/rfc2616/rfc2616-sec12.html). The client specifies a
 `Accept` and/or a `Content-Type` header and the server adjusts request
 parsing/response rendering accordingly.
 
+## Running Locally
+
+To build and run locally, execute the following:
+
+```
+$ mvn compile exec:java
+```
+
 ## Fetching Data
 
 Send an HTTP GET with the appropriate `Accept` header.
